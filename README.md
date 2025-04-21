@@ -16,7 +16,8 @@ The script package is adapted from a precursor collection of ObservableHQ (JavaS
 
 
 
-Disclaimers and licenses:
+**Disclaimers and licenses**
+
 Users agree to use the script package as is; we to not guarantee assistance, user support, or updates as new software versions are introducted.
 
 https://github.com/LAMetskas/2025_polymerizationAnalysis/  This package is provided under Creative Commons copyright license Attribution-NonCommercial-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-nc-sa/4.0/). 
