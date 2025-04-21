@@ -5,27 +5,27 @@ This is a script package written by the Metskas Lab at Purdue University.  It re
 This script package requires MATLAB and a Dynamo installation (www.dynamo-em.org).  It will run on any operating system and hardware configuration.
 
 The script package is adapted from a precursor collection of ObservableHQ (JavaScript) modules that were translated to MATLAB and then further developed. The new MATLAB script package is hosted online in GitHub for version control. To compile from the source using git, follow the steps outlined below: 
-     1. git clone  https://github.com/LAMetskas/2025_polymerizationAnalysis.git 
-     2. cd MetskasLab 
-     3. run your MATLAB executable
-     4. In MATLAB command window: run <DYNAMO_ROOT>/dynamo_activate.m 
-     5. Run scripts using the command window 
+  1. git clone  https://github.com/LAMetskas/2025_polymerizationAnalysis.git 
+  2. cd MetskasLab 
+  3. run your MATLAB executable
+  4. In MATLAB command window: run <DYNAMO_ROOT>/dynamo_activate.m 
+  5. Run scripts using the command window 
 
 
 ## Quick-start Guide
 
 Inputs: 
-     -Dynamo-formatted table from a subtomogram averaging project
-     -Particle diameter
-     -Pixel size of tomogram
+  - Dynamo-formatted table from a subtomogram averaging project
+  - Particle diameter
+  - Pixel size of tomogram
      
 Outputs: 
-     -Matlab object file with information on carboxysomes
-     -Dynamo-formatted particle tables
-     -csv file with information on each particle's behavior
-     -plots and graphics according to user choices
+  - Matlab object file with information on carboxysomes
+  - Dynamo-formatted particle tables
+  - csv file with information on each particle's behavior
+  - plots and graphics according to user choices
 
-Simply run the main.m script in Matlab, which will call all functions in order and guide user through inputs and choices.
+Simply run the main.m script in Matlab, which will call the base functions in order and guide user through inputs and choices.
 
 ## Full Documentation
 
