@@ -6,6 +6,7 @@ Outputs: Matlab object file with information on carboxysomes; Dynamo-formatted p
 To run: simply run the main.m script in Matlab.  Users will be guided through selections and choices.
 
 **Installation**
+
 The script package is adapted from a precursor collection of ObservableHQ (JavaScript) modules that were translated to MATLAB and then further developed. The new MATLAB script package is currently being hosted online in GitHub for version control. To compile from the source using git, follow the steps outlined below: 
 		1. git clone  https://github.com/LAMetskas/2025_polymerizationAnalysis.git 
 		2. cd MetskasLab 
