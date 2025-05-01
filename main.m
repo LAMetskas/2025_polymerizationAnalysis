@@ -140,7 +140,7 @@ function carboxysome_data = main()
     end
 
     % let the user start over with the new file, if one was generated
-    start_over = input('\nWould you like to terminate the program to use the new table?\n If there were no messages about deleting particles, the script can continue (y/n): ', 's');
+    start_over = input('\nHave you received error messages that you would like to correct? \n  (y/n): ', 's');
 
     % if the user chooses to continue
     if strcmp(start_over, 'n')
