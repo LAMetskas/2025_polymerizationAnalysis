@@ -2,9 +2,9 @@ tomoPoseLink is a script package written by the Metskas Lab at Purdue University
 
 ## Installation
 
-This script package requires MATLAB and a Dynamo installation (www.dynamo-em.org).  It will run on any operating system and hardware configuration.
+tomoPoseLink requires MATLAB and a Dynamo installation (www.dynamo-em.org).  It will run on any operating system and hardware configuration.
 
-The script package, tomoPoseLink, is adapted from a precursor collection of ObservableHQ (JavaScript) modules that were translated to MATLAB and then further developed. The new MATLAB script package is hosted online in GitHub for version control. To compile from the source using git, follow the steps outlined below: 
+tomoPoseLink is adapted from a precursor collection of ObservableHQ (JavaScript) modules that were translated to MATLAB and then further developed. The new MATLAB script package is hosted online in GitHub for version control. To compile from the source using git, follow the steps outlined below: 
   1. git clone  https://github.com/LAMetskas/2025_polymerizationAnalysis.git 
   2. cd MetskasLab 
   3. run your MATLAB executable
