@@ -1,4 +1,4 @@
-This is a script package written by the Metskas Lab at Purdue University.  It requires a Matlab license to run, though users are welcome to convert code to Julia under share-and-share-alike guidelines.
+tomoPoseLink is a script package written by the Metskas Lab at Purdue University.  It requires a Matlab license to run, though users are welcome to convert code to Julia under share-and-share-alike guidelines.
 
 ## Installation
 
