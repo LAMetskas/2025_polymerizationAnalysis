@@ -1,0 +1,20 @@
+%load your particle average and table
+ref=dread('ref.mrc');
+refTable=dread('table.tbl');
+
+%look at your particle in Dynamo
+dtmshow(ref)
+
+%apply a 90-degree rotation to move your lateral lattice axis into the Z axis
+rotatedRef=dparticle(ref,'eulers',[0 0 90]);
+
+%check the output: is your analysis axis now in the Z direction? If not, continue the dparticle operation until you determine the correct rotation needed for this.
+dtmshow(rotated)
+shifts = [0 0 90]; (or enter whatever eulers you found worked for you)
+
+%apply the shift to the table
+rotatedTable=dynamo_table_rigid(refTable,shifts)
+
+%write it out
+dwrite(rotatedTable,'rotatedTable.tbl')
+dwrite(rotatedRef,'rotatedReference.mrc')
