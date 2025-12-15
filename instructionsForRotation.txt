@@ -1,3 +1,7 @@
+%Optional code if user wants to analyze polymerization along the minor symmetry axis, assuming it’s in the x or y axis of the particle. 
+%This code uses Dynamo to rotate the user's table so the axis of interest is the Z axis before inputting it into our tomoPoseLink.
+%Other programs can be used if the user has a different preference over Dynamo. 
+
 %load your particle average and table
 ref=dread('ref.mrc');
 refTable=dread('table.tbl');
@@ -17,4 +21,5 @@ rotatedTable=dynamo_table_rigid(refTable,shifts)
 
 %write it out
 dwrite(rotatedTable,'rotatedTable.tbl')
+
 dwrite(rotatedRef,'rotatedReference.mrc')
