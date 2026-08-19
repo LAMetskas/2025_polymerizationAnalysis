@@ -1,0 +1,19 @@
+To cite this work: 
+Aguilar, V.M.F., Lee, F., Rochon, K., Lin, S., Lawrence, T., Mancino, P., and Metskas, L.A. A toolkit to characterize protein polymerization from cryo-electron tomography data. BMC Methods 3, 17 (2026). https://doi.org/10.1186/s44330-026-00071-w
+
+Author contributions to the code base:
+First-generation code and Matlab object conceptualization by Philip Mancino.
+First-generation chain identification parameters by Tripp Lawrence.
+Vectorization concepts and full code assembly by Forrest Lee.
+Image graphics and search optimization by Victor Aguilar.
+Code base updates and continued support by Staas Lin.
+Team supervision and guidance by Kristy Rochon and Lauren Ann Metskas.
+
+Correspondence to: 
+Lauren Ann Metskas at metskas@purdue.edu
+
+Funding:
+P. Mancino was funded by NSF Division of Chemistry REU 1950817.
+T. Lawrence was funded by NSF Division of Biological Infrastructure REU 2150396.
+K. Rochon is funded by NIH National Institute of General Medical Sciences F32 GM161096.
+This full project is supported by the Ralph W. and Grace M. Showalter Research Trust (2024-2025 to L.A. Metskas) and NSF CAREER Award 2439291 (2025-2030 to LAM).
